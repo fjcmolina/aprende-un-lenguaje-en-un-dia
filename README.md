@@ -30,7 +30,7 @@ Escribe aquí los miembros del grupo. El primero es el representante o encargado
 
 * Francisco Jesús Caballero Molina
 * Adan Estebanez Villarubia
-* Alejandro Puche
+* Alejandro Puche Velasco
 
 ## Lenguaje de programación
 
