@@ -49,7 +49,7 @@ Este lenguaje se utiliza principalmente para el desarrollo rapido de prototipos,
 
 ## Herramientas de desarrollo
 
-Indica aquí qué software has tenido que instalar para programar en este lenguaje. Añade enlaces y/o capturas de pantalla.
+Para el desarrollo de los programas hemos usado eclipse que mediante la instalacion de un plugin solo necesitamos el interprete para TCL.
 
 ## Poniendo en práctica el lenguaje
 
