@@ -92,6 +92,7 @@ while {$altura <= $alturaIntroducida} {
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
 ```
+array set numero {}
 array set primo {}
 array set noPrimo {}
 set contadorPrimo 0
@@ -100,16 +101,25 @@ set contadorNoPrimo 0
 for {set i 0}{$i < 10}{incr i}{
 	puts "Introduce un numero: "
 	gets stdin numero{i}
+	set esPrimo false
 	
 	for{set j 2}{j < numero{}-1}{incr j}{
 		if{{numero{i} % j} == 0}
+		set esPrimo false
 	}
 	
+	set esPrimo true
 	if{$esPrimo}{
-	 	primo{incr contadorPrimo}  numero{i};
+	 	primo{incr contadorPrimo}  numero{i}
 	      }else{
-		noPrimo{incr contadorNoPrimo}  numero{i};
+		noPrimo{incr contadorNoPrimo}  numero{i}
 	      }
+for {set i 0}{$i < 10}{incr i}{
+	puts numero{i}
+}
+for{set i 0}{i < $contadoPrimo}{incr i}{
+	numero{i} noPrimo{$i -$contadorPrimo}
+}
 }
 ```
 
