@@ -44,7 +44,8 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 
 ## Información sobre el lenguaje
 
-Busca páginas y/o manuales sobre el lenguaje de programación elegido. Escribe aquí las principales características: cuándo y para qué se creó, en qué ámbito se utiliza, cuáles son sus principales ventajas, etc. Pon aquí enlaces y capturas de pantalla.
+Es un lenguaje de script que aparecio en 1988 creado por John Ousterhout.
+Este lenguaje se utiliza principalmente para el desarrollo rapido de prototipos, aplicaciones "script", interfaces graficas y pruebas.
 
 ## Herramientas de desarrollo
 
