@@ -64,6 +64,26 @@ puts "Hola mundo"
 ### 2. Pirámide
 
 Dada una altura introducida por el usuario, realiza un programa que pinte una pirámide a base de asteriscos con la altura indicada.
+```
+puts "Introduce la altura: "
+gets stdin alturaIntroducida
+puts "Introduce el caracter: "
+gets stdin caracter
+set altura 1
+
+while {$altura <= $alturaIntroducida} {
+for {set i 1} {$i <= ($alturaIntroducida - 1)} {incr i} {
+	puts -nonewline " "
+      }
+    
+for {set i 1} {$i <= ($altura * 2) - 1} {incr i} { 
+	puts -nonewline $caracter
+      }
+puts " "
+incr altura
+incr alturaIntroducida -1
+}
+```
 
 ### 3. Arrays y números aleatorios
 
