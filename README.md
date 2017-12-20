@@ -102,6 +102,7 @@ array set primo {}
 array set noPrimo {}
 set contadorPrimo 0
 set contadorNoPrimo 0
+set esPrimo false
 
 for {set i 0}{$i < 10}{incr i}{
 	puts "Introduce un numero: "
@@ -123,7 +124,13 @@ for {set i 0}{$i < 10}{incr i}{
 	puts numero{i}
 }
 for{set i 0}{i < $contadoPrimo}{incr i}{
+	numero{i} primo{i}
+}
+for{set i contadorPrimo}{i < 10}{incr i}{
 	numero{i} noPrimo{$i -$contadorPrimo}
+}
+for{set i 0}{$i < 10}{incr i}{
+	puts numero{i} " "
 }
 }
 ```
