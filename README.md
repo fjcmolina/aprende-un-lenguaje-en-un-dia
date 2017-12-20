@@ -47,9 +47,11 @@ Los papelitos se han recortado de este [documento](lenguajes_de_programacion.pdf
 Es un lenguaje de script que aparecio en 1988 creado por John Ousterhout.
 Este lenguaje se utiliza principalmente para el desarrollo rapido de prototipos, aplicaciones "script", interfaces graficas y pruebas.
 
+Una de las características más usadas de Tcl es si en una aplicación requiere algo de funcionalidad no ofrecida por el Tcl estándar, los nuevos comandos de Tcl pueden ser implementados usando el lenguaje C. Tambien se caracteriza porque los daos son manejados como cadenas de caracteres Unicode.
 ## Herramientas de desarrollo
 
-Para el desarrollo de los programas hemos usado eclipse que mediante la instalacion de un plugin solo necesitamos activar el interprete mediante un ejecutable que descargamos de [Aqui](https://www.activestate.com/activetcl/downloads/thank-you?dl=http://downloads.activestate.com/ActiveTcl/releases/8.6.7.0/ActiveTcl-8.6.7.0-MSWin32-x64-404764.exe)
+Para el desarrollo de los programas hemos usado eclipse que mediante la instalacion de un plugin solo necesitamos activar el interprete mediante un ejecutable que descargamos de [aqui.](https://www.activestate.com/activetcl/downloads/thank-you?dl=http://downloads.activestate.com/ActiveTcl/releases/8.6.7.0/ActiveTcl-8.6.7.0-MSWin32-x64-404764.exe)
+Una vez activado solo tenemos que añadir el interprete tclsh en eclipse y esta listo para ejecutar el programa realizado.
 
 ## Poniendo en práctica el lenguaje
 
