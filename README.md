@@ -51,6 +51,7 @@ Una de las características más usadas de Tcl es si en una aplicación requiere
 ## Herramientas de desarrollo
 
 Para el desarrollo de los programas hemos usado eclipse que mediante la instalacion de un plugin solo necesitamos activar el interprete mediante un ejecutable que descargamos de [aqui.](https://www.activestate.com/activetcl/downloads/thank-you?dl=http://downloads.activestate.com/ActiveTcl/releases/8.6.7.0/ActiveTcl-8.6.7.0-MSWin32-x64-404764.exe)
+
 Una vez activado solo tenemos que añadir el interprete tclsh en eclipse y esta listo para ejecutar el programa realizado.
 
 ## Poniendo en práctica el lenguaje
