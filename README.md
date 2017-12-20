@@ -1,4 +1,4 @@
-# Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
+## Aprende un lenguaje de programación en un día (ejercicio voluntario para subir nota).
 
 ## Introducción
 
@@ -29,7 +29,7 @@ Para añadir colaboradores hay que hacer click en la pestaña *Settings* y selec
 Escribe aquí los miembros del grupo. El primero es el representante o encargado.
 
 * Francisco Jesús Caballero Molina
-* Adan Estebanez Villarubia
+* Adán Estebanez Villarrubia
 * Alejandro Puche Velasco
 
 ## Lenguaje de programación
