@@ -89,7 +89,7 @@ while {$altura <= $alturaIntroducida} {
 }
 
 ```
-<img src="https://www.dropbox.com/s/hf1onx4jshyq4ar/Captura.PNG?dl=0" >
+<img src="https://camo.githubusercontent.com/846ae529b33864edf920621916e062cef8f4f867/68747470733a2f2f696d616765732e73667463646e2e6e65742f696d616765732f745f6f7074696d697a65642c665f6175746f2f702f32663463303466342d393664302d313165362d393833302d3030313633656438333365372f333136333739363432332f6a6176612d72756e74696d652d656e7669726f6e6d656e742d73637265656e73686f742e706e67" >
 ### 3. Arrays y números aleatorios
 
 Realiza un programa que rellene un array (o una estructura similar) con 20 números enteros aleatorios entre 1 y 100 y que seguidamente los muestre por pantalla. A continuación, se deben pasar los números primos a las primeras posiciones del array y los no primos a las posiciones restantes. Muestra finalmente el array resultado.
